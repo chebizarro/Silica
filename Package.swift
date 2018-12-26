@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Silica",
     dependencies: [
-        .package(url: "https://github.com/PureSwift/Cairo.git", from: "1")
+        .package(url: "https://github.com/PureSwift/Cairo.git", from: "1.2.3")
     ],
     targets: [
         .target(name: "Silica")
